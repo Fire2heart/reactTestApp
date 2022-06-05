@@ -1,0 +1,28 @@
+.whishList{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(211, 211, 211);
+  border: solid 1px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  padding: .5rem 0;
+  width: 100%;
+  transition: all .3s;
+}
+
+.item:hover{
+  background-color: gray;
+}
+
+.icon{
+  margin-left: auto;
+  width: 50px;
+  font-size: 32px;
+}
+
+.icon:hover{
+  color: red;
+}
